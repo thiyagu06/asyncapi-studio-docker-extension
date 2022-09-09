@@ -1,0 +1,6 @@
+services:
+  asyncapi-studio-docker-extension:
+    image: asyncapi/studio:latest
+    container_name: asynacapi-studio
+    ports:
+      - 5555:80
